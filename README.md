@@ -1,4 +1,4 @@
-# 🏗️ Lakehouse - Camadas Bronze, Silver e Gold (Databricks DLT)
+# Lakehouse - Camadas Bronze, Silver e Gold (Databricks DLT)
 
 ## 📘 Visão Geral
 Pipeline de dados construído no **Databricks Delta Live Tables (DLT)**, organizado nas camadas **Bronze → Silver → Gold**, garantindo ingestão contínua, qualidade e geração de insights de negócio.
