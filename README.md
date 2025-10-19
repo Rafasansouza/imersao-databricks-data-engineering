@@ -82,9 +82,10 @@ Consolida as informações de negócio e gera **KPIs e rankings** para análise.
 ## 🔄 Fluxo Geral
 ```mermaid
 graph TD
-  A[Bronze: Ingestão] --> B[Silver: Transformação e Qualidade]
-  B --> C[Gold: Métricas e Insights]
-  C --> D[Power BI / Databricks SQL / API]
+  A[Raw: Ingestão]
+  B[Bronze: Extração e estruturação da raw] --> C[Silver: Transformação e Qualidade]
+  C --> D[Gold: Métricas e Insights]
+  D --> E[Power BI / Databricks SQL / API]
 ```
 
 ---
