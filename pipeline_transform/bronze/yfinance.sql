@@ -1,4 +1,4 @@
-CREATE OR REFRESH STREAMING LIVE TABLE lakehouse.bronze.yfinance
+CREATE OR REFRESH STREAMING LIVE TABLE yfinance
 TBLPROPERTIES ("quality" = "bronze")
 AS
 SELECT *
