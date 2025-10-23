@@ -3,6 +3,8 @@
 ## 📘 Visão Geral
 Pipeline de dados construído no **Databricks Delta Live Tables (DLT)**, organizado nas camadas **Bronze → Silver → Gold**, garantindo ingestão contínua, qualidade e geração de insights de negócio.
 
+![Arquitetura do Projeto](pics/architeture_lakehouse_imersao_databricks.png)
+
 ---
 
 ## 🪙 Camada Bronze — Ingestão Bruta
